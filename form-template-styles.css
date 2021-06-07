@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "AvertaStd";
+    src: url("/demo/parablegift/wp-content/themes/parable-gifts/assets/css/font/AvertaStd-Regular.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "AvertaStd";
+    src: url("/wp-content/themes/parable-gifts/assets/css/font/AvertaStd-Regular.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "AvertaStd";
+    src: url("/demo/parablegift/wp-content/themes/parable-gifts/assets/css/font/AvertaStd-Semibold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "AvertaStd";
+    src: url("/wp-content/themes/parable-gifts/assets/css/font/AvertaStd-Semibold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "AvertaStd";
+    src: url("/demo/parablegift/wp-content/themes/parable-gifts/assets/css/font/AvertaStd-Bold.ttf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "AvertaStd";
+    src: url("/wp-content/themes/parable-gifts/assets/css/font/AvertaStd-bold.ttf");
+    font-weight: 900;
+}
+
+p{
+    font-family: 'AvertaStd', sans-serif !important;
+}
+.choose-amount .give-donation-levels-wrap .give-donation-level-btn{
+    font-family: 'AvertaStd', sans-serif !important;
+}
+
+.give-donation-level-btn {
+    color: rgba(21, 13, 92, 1) !important;
+    border-radius: 10px;
+    border: 2px solid rgba(196, 196, 196, 1)!important;
+    background-color: rgba(249, 249, 249, 1) !important;
+    transition: all ease 0.2s;
+}
+
+.give-donation-level-btn:hover {
+    color: rgba(249, 249, 249, 1) !important;
+    background-color: rgba(21, 13, 92, 1) !important;
+    transition: all ease 0.2s;
+}
+
+.give-donation-level-btn.give-default-level {
+    color: rgba(249, 249, 249, 1) !important;
+    background-color: rgba(21, 13, 92, 1) !important;
+    transition: all ease 0.2s;
+}
+
+.give-donation-level-btn.give-default-level:hover {
+    color: rgba(249, 249, 249, 1) !important;
+    background-color: rgba(21, 13, 92, 1) !important;
+    transition: all ease 0.2s;
+}
+
+.advance-btn {
+    background-color: rgba(255, 209, 102, 1) !important;
+    border: 2px solid rgba(255, 209, 102, 1) !important;
+    color: rgba(21, 13, 92, 1);
+    transition: all ease 0.2s;
+}
+
+.advance-btn:hover {
+    background-color: white !important;
+    border: 2px solid rgba(21, 13, 92, 1) !important;
+    transition: all ease 0.2s;
+}
+
+.choose-amount .give-donation-amount {
+    width: 100%;
+    margin: 5px 30px;
+}
+
+.choose-amount .give-donation-levels-wrap .give-donation-level-btn {
+    font-size: 1.75rem;
+}
+
+.give-donation-amount #give-amount,
+.give-donation-amount #give-amount-text {
+    font-size: 1rem !important;
+}
+
+.choose-amount .give-donation-amount .give-amount-top {
+    width: 100% !important;
+    text-align: left;
+    padding-left: 2rem !important;
+    min-width: none !important;
+}
+
+#give-form-245-wrap {
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: 0px 10px 13px rgb(0 0 0 / 10%);
+}
+
+.content {
+    font-size: 1rem;
+    line-height: 1.6;
+    /* or 26px */
+    color: black !important;
+    text-align: left !important;
+}
+
+.give-form-navigator>.title {
+    font-size: 1.75rem;
+    text-align: left;
+    margin: 0 30px;
+}
+
+.give-form-navigator {
+    background: none !important;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .give-embed-form, .give-embed-receipt {
+        max-width: 530px !important;
+        width: 530px !important; 
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .give-embed-form-wrapper{
+        margin-left: -0.7rem;
+    }
+    #give-form-245-wrap{
+        border-radius: 0 !important;
+        padding: 0 !important;
+        box-shadow: none !important;
+        background-color: transparent;
+    }
+    .give-embed-form, .give-embed-receipt {
+        max-width: 261px !important;
+        width: 261px !important;
+    }
+    .choose-amount .give-donation-levels-wrap .give-donation-level-btn {
+        font-size: 1rem;
+    }
+    .give-form-navigator>.title {
+        font-size: 1.5rem;
+        margin: 0 15px;
+    }
+    .choose-amount .give-donation-levels-wrap .give-donation-level-btn.give-btn-level-custom{
+        font-size: 0.8rem;
+    }
+}
